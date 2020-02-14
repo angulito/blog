@@ -1,0 +1,59 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "modern-blog"
+DefaultContentLanguage = "en"
+staticDir = ["static"]
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    locale = "en"
+    languageName = "English"
+    title = "Trip's secrets"
+    weight = 1
+    staticDir2 = "static_en"
+    Description = "The most emotional tips and secrets discovered to enjoy while traveling"
+  [languages.es]
+    locale = "es"
+    languageName = "Español"
+    title = "Secretos de viajes"
+    weight = 2
+    staticDir2 = "static_es"
+    Description = "Consejos y secretos más emocionantes descubiertos para que disfrutes durante los viajes"
+
+[author]
+  name = "Natalia Angulo"
+
+[params]
+  DateForm = "2006-01-02"
+  Author = "Natalia Angulo"
+  email = "nanguloherrera@gmail.com"
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = false #set to false to exclude read time from header of post
+  # This will load all the CSS defined in the list
+  customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
+  
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/nangulito"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/angulito"
+
+[[languages.en.menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[languages.en.menu.main]]
+  name = "archives"
+  url = "/posts/"
+  weight = -180
+
+[[languages.es.menu.main]]
+  name = "inicio"
+  url = "/"
+  weight = -200
+[[languages.es.menu.main]]
+  name = "archivos"
+  url = "/posts/"
+  weight = -180

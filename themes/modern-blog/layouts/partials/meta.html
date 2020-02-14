@@ -1,0 +1,8 @@
+{{ if .Site.Params.ShowReadTime }}
+  {{ i18n "readingTime" }},
+{{ end }}
+{{ i18n "postedBy" }} <a href="#">{{ .Site.Params.Author }}</a> {{ i18n "onDate" }} {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}
+<br />
+{{ partial "categories.html" .}}
+<br />
+{{ partial "tags.html" .}}

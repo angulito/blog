@@ -1,0 +1,17 @@
+# Posts info
+[olderPosts]
+other = "Posts antiguos"
+[postedBy]
+other = "Autor"
+
+# Dates
+[onDate]
+other = "a"
+
+# Header
+[buyMeABeer]
+other = "Invítame a una caña"
+
+# Blog
+[readingTime]
+other = "{{ .ReadingTime }} minutos de lectura"

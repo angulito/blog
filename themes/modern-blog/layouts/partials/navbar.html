@@ -1,0 +1,31 @@
+           <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                    {{end}}
+                    
+                    <li>
+                        <a href="https://www.paypal.me/angulito/2">
+                        {{ i18n "buyMeABeer" }}
+                        <img src="/img/beer-icon.png" width="20px" alt="Beer">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                        <img src="/language/lan.png" width="15px" alt="Languages">
+                        </a>
+                    </li>
+                        {{ range $i, $t := $.Site.Home.Translations }}
+                        <li>
+                            <a href="{{ $t.Permalink }}">
+                                {{ $t.Language.LanguageName }}
+                            </a>
+                        </li>
+                        {{ end }}
+                </ul>
+            </div>
+           <!-- /.navbar-collapse -->
