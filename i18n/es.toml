@@ -15,3 +15,21 @@ other = "Invítame a una caña"
 # Blog
 [readingTime]
 other = "{{ .ReadingTime }} minutos de lectura"
+
+[recentPosts]
+other = "Entradas recientes"
+
+[allArticles]
+other = "Todos los artículos"
+
+[allTags]
+other = "Todas las etiquetas"
+
+[entriesTagged]
+other = "Entradas etiquetadas"
+
+[postedAt]
+other = "Publicado en"
+
+[draft]
+other = "borrador"

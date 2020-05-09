@@ -1,0 +1,44 @@
+<div class="header">
+	<h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+	<div class="site-description">
+		{{- if isset .Site.Params "subtitle" -}}
+		<h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
+		{{- end -}}
+		<nav class="nav social">
+			<ul class="flat">
+				{{- range $index, $key := .Site.Params.Social -}}
+				<a class="link-header" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+				{{- end -}}
+				
+				<a class="link-header" href="https://www.paypal.me/angulito/2">
+				{{ i18n "buyMeABeer" }}
+				<img class="img-header" src="/img/beer-icon.png" width="20px" alt="Beer">
+				</a>
+				
+				<a>
+				{{ if len $.Translations }}
+				<img class="img-header" src="/language/lan.png" width="15px" alt="Languages">
+				{{ end }}
+
+				{{ range $i, $t := $.Translations }}
+				<li>
+					<a class="link-header" href="{{ .Permalink }}">
+						{{ $t.Language.LanguageName }}
+					</a>
+				</li>
+				{{ end }}
+				</a>
+			</ul>
+		</nav>
+	</div> 
+
+	<nav class="nav">
+		<ul class="flat">
+			{{ range .Site.Menus.main }}
+			<li>
+				<a href="{{ $.Site.BaseURL }}{{ $.Site.Language }}{{ .URL }}">{{ .Name }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</nav>
+</div>

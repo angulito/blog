@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+
+<body>
+	{{ $data := index .Site.Data .Site.Language.Lang }}
+	<div class="container wrapper list">
+		{{ partial "head.html" . }}
+
+		{{ if isset .Data "Term" }}
+			<h1>{{ i18n "entriesTagged" }} - "{{ .Data.Term }}"</h1>
+		{{ else }}
+			<h1 class="page-title">{{ i18n "allArticles" }}</h1>
+		{{ end }}
+
+		<ul class="posts">
+			{{- range .Data.Pages -}}
+			{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
+			{{- else -}}
+			<li class="post">
+				<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ .Date.Day }} {{ index $data.months (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ if .Draft }} <span class="draft-label">{{ upper (i18n "draft") }}</span> {{ end }}</span>
+			</li>
+			{{- end -}}
+			{{- end -}}
+		</ul>
+	</div>
+
+	{{ partial "footer.html" . }}
+</body>
+
+</html>
