@@ -9,7 +9,6 @@ tags = [
 categories = [
     "trips",
 ]
-image = "/trips/krakow/about.jpg" #optional image - "/img/about-bg.jpg" is the default
 description = ""
 draft = false
 +++
@@ -31,7 +30,7 @@ I highly recommend you to visit this castle on Monday if you are available, beca
 
 Note: Although it's free, you will need to go to the ticketing point to get and print your free tickets.
 
-![castle](/trips/krakow/castle.jpg)
+![castle](trips/krakow/castle.jpg)
 
 ## Old town free tour
 
@@ -43,7 +42,7 @@ This is a cool place to go after having dinner in order to play to board games, 
 
 Recommendation: Pica-picachu lemonade and Charmander orangeade, delicious and with a good price!
 
-![cybermachina](/trips/krakow/cybermachina.jpg)
+![cybermachina](trips/krakow/cybermachina.jpg)
 
 ## <u>[Walk around the castle renting an electric scooter](https://www.google.com/maps/place/Wawel+Royal+Castle/@50.0528882,19.933309,20.82z/data=!4m5!3m4!1s0x47165b6d053619f5:0xacb9dfc4d67fa598!8m2!3d50.0540495!4d19.9354123)</u>
 
@@ -55,13 +54,13 @@ In raining days (a very frequent day in Poland), you can enjoy an original versi
 
 On the outskirts of the Kazimiert shopping center there are a bunch of food trucks, a precious fountain and hammocks (even you can go with kids because there are a park area to jump and play). It is worth taking a look at this area!
 
-![gallery](/trips/krakow/gallery.jpg)
+![gallery](trips/krakow/gallery.jpg)
 
 ## <u>[Visit the Wieliczka salt mine](https://goo.gl/maps/2J9qowzcsb17h56W7)</u>
 
 It was the best excursion we did. The tour lasted about 2.5 hours and it was awesome and super funny with the guidance we had (Agatha, in case you can choose).
 
-![wieliczka](/trips/krakow/wieliczka.jpg)
+![wieliczka](trips/krakow/wieliczka.jpg)
 
 **Recommendations about what to bring:**
 
@@ -86,7 +85,7 @@ We had an awesome afternoon, it is highly recommended for kids and adults. It ha
 
 You can see timetables and prices in [the website](https://www.ogroddoswiadczen.pl/ticket-prices-od).
 
-![science](/trips/krakow/science.jpg)
+![science](trips/krakow/science.jpg)
 
 ## <u>[Krakus mound](https://goo.gl/maps/QwBD32MvdpdGpPVq8)</u>
 
@@ -98,7 +97,7 @@ Recommendations to bring:
 - Water and non-alcoholic beverage.
 - Deck of cards, games or book.
 
-![krakus](/trips/krakow/krakus.jpg)
+![krakus](trips/krakow/krakus.jpg)
 
 ## <u>[Views from the Music Academy. Metrum Rooftop Restobar](https://goo.gl/maps/qBt1JAxr9X4jK5RA7)</u>
 
@@ -110,7 +109,7 @@ Recommendations:
 
 - You can taste a typical beverage from Poland, [Kompot](https://en.wikipedia.org/wiki/Kompot).
 
-![music](/trips/krakow/music.jpg)
+![music](trips/krakow/music.jpg)
 
 ## <u>[Escape Room (in english)](http://exitgame.pl/en/select-the-room/)</u>
 
@@ -132,7 +131,7 @@ This visit disappointed me. It's good to go and have a look at the concentration
 - You need to arrive to the Auschwitz concentration camp at least 15 minutes before starting your tour because you need to go through a security control before entering (it is like the airports security control).
 - Most of people go in bus because the bus stop is in front of the museum entrance. It means that it will be very busy when you go out of your Auschwitz visit. Have in mind you can also take a train although you will need to walk around 20 minutes to the train station. We bought the train tickets from the [web](https://bilety.polregio.pl/en/wyniki/85/146/18-09-2019_06:00/*/departure/all/all/auto).
 
-![auschwitz](/trips/krakow/auschwitz.jpg)
+![auschwitz](trips/krakow/auschwitz.jpg)
 
 ## Kazimiert tour (Jewish quarter)
 
@@ -148,29 +147,29 @@ Small place where you can eat delicious and cheap Pierogis.
 
 Irresistible sweet. They are like donuts. Even you can choose Kinder Bueno filled donut... And they are big and cheap by only 4PLN.
 
-![donut](/trips/krakow/donut.jpg)
+![donut](trips/krakow/donut.jpg)
 
 ## \[Cake and coffee\] <u>[Czarodziej](https://goo.gl/maps/Rwgq8FLt7NJbTYjh7)</u>
 
 This place is perfect to take a coffee (latte coffee is very good) and a piece of cake. However, you will need to point to the cake you want if you don't know to speak Polish, because they don't speak english!
 
-![coffee](/trips/krakow/coffee.jpg)
+![coffee](trips/krakow/coffee.jpg)
 
 ## \[Soupes\] <u>[Morskie Oko](https://goo.gl/maps/qDDSgTT28WxxBDni9)</u>
 
 This place is not cheap or expensive, but it's worth to go because you can eat a good traditional Krakow soup (inside a bread) or a delicious tomato soup.
 
-![morskie](/trips/krakow/morskie.jpg)
+![morskie](trips/krakow/morskie.jpg)
 
 ## \[Special Ice Creams (kürtőskalács)\] <u>[Chimney Cake Bakery](https://goo.gl/maps/RzMkwANWLKJYvbnZA)</u>
 
 There are multiple Chimney Cake Bakery in Krakow, but in particular I've put the link to one which is in a foodtrucks place because I am gonna recommend you another near place to have lunch / dinner in these foodtruck place.
 
-![chimney](/trips/krakow/chimney.jpg)
+![chimney](trips/krakow/chimney.jpg)
 
 This ice cream shop is special because the ice cream is on a kürtőskalác. A kürtőskalác is a hungarian sweet like a cylinder and they cook it in the oven / fire. I highly recommend you to taste it, with ice cream or without it.
 
-![kürtőskalács](/trips/krakow/kürtőskalács.jpg)
+![kürtőskalács](trips/krakow/kürtőskalács.jpg)
 
 ## \[Food truck: meatloaf's sandwich\] <u>[Andrus Food Truck - Maczanka Krakowska](https://goo.gl/maps/fjcteET2ELhkMHVUA)</u>
 
@@ -180,8 +179,8 @@ Meatloaf's sandwich cooked at low temperature in the oven. Delicious. And of cou
 
 This is a lovely place to eat. You can find like a pizza, called Iberia, which is delicious. We repeated multiple times this place, because it was one of our favorites!
 
-![georgian](/trips/krakow/georgian.jpg)
-![georgian bill](/trips/krakow/georgian2.jpg)
+![georgian](trips/krakow/georgian.jpg)
+![georgian bill](trips/krakow/georgian2.jpg)
 
 ## \[Traditional Polish food\] <u>[Kuchnia u Doroty](https://goo.gl/maps/1qwUxpsmW7EDUfj88)</u>
 
@@ -193,7 +192,7 @@ We recommend the wheat beer, it was very tasty in this place...
 
 The Zapiekanki is a fast food and very typical from Poland (also it's super cheap). The Google Maps link from the title will direct you to the new square (plac Nowy) where you can find a lot of places to buy Zapiekanki. The Zapiekanki is very big, so if you are hungry you will be able to eat one of them, otherwise, you can share it with friends! In addition, this is one of the few places that closes later than most of the places (it's habitual to close around 9-10pm).
 
-![zapiekanki](/trips/krakow/zapiekanki.jpg)
+![zapiekanki](trips/krakow/zapiekanki.jpg)
 
 ## \[Knuckle\] <u>[Pod Wawelem Kompania Kuflowa](https://maps.app.goo.gl/18K2orrCyjjVjzkb6)</u>
 
@@ -203,26 +202,26 @@ This restaurant is opposite to the Wawel's castle. Recommendations and things to
 - A knuckle, at least the one we aet, weights around 1.2Kg, so it's enough for 2 or even more people. Be careful with ordering a lot of food! However, you can always ask them to put the rest of the food to take away.
   - The knuckle we ordered and it's delicious is called _Crispy pork knuckle_.
 
-![Wawelem](/trips/krakow/wawelem.jpg)
-![Wawelem bill](/trips/krakow/wawelem2.jpg)
+![Wawelem](trips/krakow/wawelem.jpg)
+![Wawelem bill](trips/krakow/wawelem2.jpg)
 
 ## \[Brunch\] <u>[Ranny Ptaszek](https://goo.gl/maps/7uHVUECkSpew9CAV8)</u>
 
 This is a small place but it's good to drink an orange juice and a small casserole with sauce and sausages (although there are more options). Perfect for a brunch.
 
-![brunch](/trips/krakow/brunch.jpg)
+![brunch](trips/krakow/brunch.jpg)
 
 ## \[American breakfast\] <u>[Alchemia od Kuchni](https://g.page/AlchemiaOdKuchni?share)</u>
 
 Big breakfasts with an American style (sausages, eggs...).
 
-![american breakfast](/trips/krakow/american_breakfast.jpg)
+![american breakfast](trips/krakow/american_breakfast.jpg)
 
 # Tips to come back to your home
 
 If you are traveling in airport, it would be interesting to know that there is a free area in the Krakow Airport where you can play to football table, ping-pong or a big chess. It's very funny and very comfortable to wait for your trip there (before passing the security control). It's located in the 1st floor.
 
-![airport](/trips/krakow/airport.jpg)
+![airport](trips/krakow/airport.jpg)
 
 Some ideas about what to bring to the plane:
 
@@ -238,4 +237,4 @@ Some ideas about what to bring to the plane:
 
 Do you like this post? Is it helpful for you? You can buy me a beer in Krakow!
 
-[![buy me a beer](/img/beer.png)](https://www.paypal.me/angulito/2)
+[![buy me a beer](img/beer.png)](https://www.paypal.me/angulito/2)

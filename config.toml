@@ -48,51 +48,51 @@ defaultContentLanguageInSubdir = true
 
 [[languages.en.menu.main]]
     name = "Home"
-    url = "/"
+    url = ""
     weight = 1
 [[languages.en.menu.main]]
     name = "Trips"
-    url = "/trips"
+    url = "trips"
     weight = 2
 [[languages.en.menu.main]]
     name = "Technology"
-    url = "/technology"
+    url = "technology"
     weight = 3
 [[languages.en.menu.main]]
     name = "Categories"
-    url = "/categories"
+    url = "categories"
     weight = 4
 [[languages.en.menu.main]]
     name = "Tags"
-    url = "/tags"
+    url = "tags"
     weight = 5
 [[languages.en.menu.main]]
     name = "Contact"
-    url = "/contact"
+    url = "contact"
     weight = 6    
 
 [[languages.es.menu.main]]
     name = "Inicio"
-    url = "/"
+    url = ""
     weight = 1
 [[languages.es.menu.main]]
     name = "Viajes"
-    url = "/trips"
+    url = "trips"
     weight = 2
 [[languages.es.menu.main]]
     name = "Tecnología"
-    url = "/technology"
+    url = "technology"
     weight = 3
 [[languages.es.menu.main]]
     name = "Categorias"
-    url = "/categories"
+    url = "categories"
     weight = 4
 [[languages.es.menu.main]]
     name = "Etiquetas"
-    url = "/tags"
+    url = "tags"
     weight = 5
 [[languages.es.menu.main]]
     name = "Contacto"
-    url = "/contact"
+    url = "contact"
     weight = 6
 

@@ -34,10 +34,10 @@ Hemos elegido un stack tecnológico dentro de muchas posibilidades que tenemos. 
 [Prometheus](https://prometheus.io/docs/introduction/overview/) es un sistema de monitorización y alertas de **código libre**. Él reúne información de servicios y jobs instrumentados. Para instrumentar un servicio, simplemente tenemos que exponer un endpoint HTTP con métricas en el formato de Prometheus. Es entonces cuando usando el servicio de autodiscovery de Prometheus podemos almacenar las métricas recolectada de todos nuestros objetivos. Por otro lado, si tenemos jobs de vida corta, necesitaremos usar el servicio de [Pushgateway](https://prometheus.io/docs/practices/pushing/). En este caso, el servicio de Pushgateway será el responsable de exponer las métricas a los servicios. Aquí puedes ver algunos diagramas de como funciona:
 
 Cómo reunir métricas sobre servicios:
-{{< figure src="/technology/prometheus/scrapping.png" title="Prometheus escanea la información de los servicios" >}}
+{{< figure src="technology/prometheus/scrapping.png" title="Prometheus escanea la información de los servicios" >}}
 
 Cómo Prometheus Pushgatway reúne las métricas de los jobs de vida corta:
-{{< figure src="/technology/prometheus/scrapping-push-gateway.png" title="Prometheus Gateway recibe las métricas de los jobs de vida corta" >}}
+{{< figure src="technology/prometheus/scrapping-push-gateway.png" title="Prometheus Gateway recibe las métricas de los jobs de vida corta" >}}
 
 #### Metricas
 
@@ -59,7 +59,7 @@ En Prometheus, una métrica está compuesta por:
 
 Aquí puedes ver un diagrama sobre la estructura de una métrica:
 
-{{< figure src="/technology/prometheus/metric.png" title="Estructura de una métrica" >}}
+{{< figure src="technology/prometheus/metric.png" title="Estructura de una métrica" >}}
 
 #### PromQL
 
@@ -77,7 +77,7 @@ Prometheus usa su propio lenguaje para consultar los datos: [PromQL](https://pro
 
 Alertmanager es un kit de herramientas de Prometheus que podemos usar para manegar alertas a través de reglas simplemente consultado la base de datos de Prometheus y estableciendo unos límites. Alertmanager tiene un simple [sistema de notificación](https://prometheus.io/docs/alerting/configuration/), el cual soporta muchos servicios como Slack y Jira.
 
-{{< figure src="/technology/prometheus/alertmanager.png" title="Alertmanager" >}}
+{{< figure src="technology/prometheus/alertmanager.png" title="Alertmanager" >}}
 
 ### Grafana
 
@@ -91,4 +91,4 @@ Para construir tu primer sistema de monitorización usando las herramientas menc
 
 ¿Te ha gustado este post? ¿Te ha sido de ayuda? ¡Puedes invitarme a una cañeja para ayudarme a digerir mejor el uso de estas nuevas tecnologías!
 
-[![invitame a una cerveza](/img/beer-es.png)](https://www.paypal.me/angulito/2)
+[![invitame a una cerveza](img/beer-es.png)](https://www.paypal.me/angulito/2)

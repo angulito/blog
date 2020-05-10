@@ -12,12 +12,12 @@
 				
 				<a class="link-header" href="https://www.paypal.me/angulito/2">
 				{{ i18n "buyMeABeer" }}
-				<img class="img-header" src="/img/beer-icon.png" width="20px" alt="Beer">
+				<img class="img-header" src="img/beer-icon.png" width="20px" alt="Beer">
 				</a>
 				
 				<a>
 				{{ if len $.Translations }}
-				<img class="img-header" src="/language/lan.png" width="15px" alt="Languages">
+				<img class="img-header" src="language/lan.png" width="15px" alt="Languages">
 				{{ end }}
 
 				{{ range $i, $t := $.Translations }}
@@ -36,7 +36,7 @@
 		<ul class="flat">
 			{{ range .Site.Menus.main }}
 			<li>
-				<a href="{{ $.Site.BaseURL }}{{ $.Site.Language }}{{ .URL }}">{{ .Name }}</a>
+				<a href="{{ $.Site.BaseURL }}{{ $.Site.Language }}/{{ .URL }}">{{ .Name }}</a>
 			</li>
 			{{ end }}
 		</ul>

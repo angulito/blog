@@ -34,10 +34,10 @@ The following tech stack is one of a lot of possibilities that you currently hav
 [Prometheus](https://prometheus.io/docs/introduction/overview/) is an **open-source** monitoring and alerting system. It gathers information from instrumented services and jobs. In order to instrument a service just expose an HTTP endpoint with metrics in Prometheus format. Then using Prometheus service discovery, we will be able to discover and automatically scrape and ingest the metrics. On the other hand, if we have a short-lived job, we will need to use the [Pushgateway](https://prometheus.io/docs/practices/pushing/) service. The push gateway service is responsible to expose the metrics to Prometheus for scraping. Here you have some diagrams about how it works:
 
 How to scrape services:
-{{< figure src="/technology/prometheus/scrapping.png" title="Prometheus scrapes a service" >}}
+{{< figure src="technology/prometheus/scrapping.png" title="Prometheus scrapes a service" >}}
 
 How to scrape prometheus Pushgateway as it contains short-lived jobs metrics:
-{{< figure src="/technology/prometheus/scrapping-push-gateway.png" title="Prometheus Gateway for short-lived jobs" >}}
+{{< figure src="technology/prometheus/scrapping-push-gateway.png" title="Prometheus Gateway for short-lived jobs" >}}
 
 #### Metrics
 
@@ -59,7 +59,7 @@ In Prometheus, a metric is composed by:
 
 Here you have a diagram about the metric structure:
 
-{{< figure src="/technology/prometheus/metric.png" title="Metric structure" >}}
+{{< figure src="technology/prometheus/metric.png" title="Metric structure" >}}
 
 #### PromQL
 
@@ -77,7 +77,7 @@ Prometheus uses its own query language: [PromQL](https://prometheus.io/docs/prom
 
 Alertmanager is a Prometheus’ toolkit that we can use to handle alerts through rules, just querying prometheus database setting thresholds. Alertmanager has an easy [notification system](https://prometheus.io/docs/alerting/configuration/), supporting a lot of services like Slack and Jira.
 
-{{< figure src="/technology/prometheus/alertmanager.png" title="Alertmanager" >}}
+{{< figure src="technology/prometheus/alertmanager.png" title="Alertmanager" >}}
 
 ### Grafana
 
@@ -91,4 +91,4 @@ In order to build your first monitoring system using these mentioned tools above
 
 Do you like this post? Is it helpful for you? You can buy me a beer to help me to digest better the usage of these new technologies!
 
-[![buy me a beer](/img/beer.png)](https://www.paypal.me/angulito/2)
+[![buy me a beer](img/beer.png)](https://www.paypal.me/angulito/2)
