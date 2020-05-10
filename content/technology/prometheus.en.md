@@ -8,7 +8,7 @@ tags = [
 categories = [
     "technology",
 ]
-description = ""
+description = "Learn about most used monitoring tools and how to set up your first monitoring system"
 draft = false
 +++
 

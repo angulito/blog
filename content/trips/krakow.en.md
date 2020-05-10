@@ -9,7 +9,7 @@ tags = [
 categories = [
     "trips",
 ]
-description = ""
+description = "Discover Krakow visiting hidden places and enjoying with some tricks"
 draft = false
 +++
 

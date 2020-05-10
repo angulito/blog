@@ -9,7 +9,7 @@ tags = [
 categories = [
     "viajes",
 ]
-description = ""
+description = "Descubre Cracovia visitando lugares escondidos y disfrutando con algunos trucos"
 draft = false
 aliases = [
     "/es/trips/krakow"

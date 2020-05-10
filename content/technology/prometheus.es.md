@@ -8,7 +8,7 @@ tags = [
 categories = [
 "tecnología",
 ]
-description = ""
+description = "Aprende sobre las herramientas de monitorización más usadas y construye tu primer sistema de monitorización"
 draft = false
 +++
 
