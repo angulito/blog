@@ -15,3 +15,21 @@ other = "Buy me a beer"
 # Blog
 [readingTime]
 other = "A {{ .ReadingTime }} minute read"
+
+[recentPosts]
+other = "Recent posts"
+
+[allArticles]
+other = "All articles"
+
+[allTags]
+other = "All tags"
+
+[entriesTagged]
+other = "Entries tagged"
+
+[postedAt]
+other = "Posted at"
+
+[draft]
+other = "draft"

@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-theme = "modern-blog"
+theme = "ezhil"
 DefaultContentLanguage = "en"
 staticDir = ["static"]
 defaultContentLanguageInSubdir = true
@@ -9,14 +9,14 @@ defaultContentLanguageInSubdir = true
   [languages.en]
     locale = "en"
     languageName = "English"
-    title = "Trip's secrets"
+    title = "Angulito's blog"
     weight = 1
     staticDir2 = "static_en"
     Description = "The most emotional tips and secrets discovered to enjoy while traveling"
   [languages.es]
     locale = "es"
     languageName = "Español"
-    title = "Secretos de viajes"
+    title = "Blog de Angulito"
     weight = 2
     staticDir2 = "static_es"
     Description = "Consejos y secretos más emocionantes descubiertos para que disfrutes durante los viajes"
@@ -24,36 +24,75 @@ defaultContentLanguageInSubdir = true
 [author]
   name = "Natalia Angulo"
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+  
 [params]
   DateForm = "2006-01-02"
   Author = "Natalia Angulo"
   email = "nanguloherrera@gmail.com"
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = false #set to false to exclude read time from header of post
+  featherIconsCDN = true
   # This will load all the CSS defined in the list
   customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
   
 [[params.social]]
   title = "twitter"
+  icon = "twitter"
   url = "https://twitter.com/nangulito"
 [[params.social]]
   title = "github"
+  icon = "github"
   url = "https://github.com/angulito"
 
 [[languages.en.menu.main]]
-  name = "home"
-  url = "/"
-  weight = -200
+    name = "Home"
+    url = "/"
+    weight = 1
 [[languages.en.menu.main]]
-  name = "archives"
-  url = "/posts/"
-  weight = -180
+    name = "Trips"
+    url = "/trips"
+    weight = 2
+[[languages.en.menu.main]]
+    name = "Technology"
+    url = "/technology"
+    weight = 3
+[[languages.en.menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 4
+[[languages.en.menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 5
+[[languages.en.menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 6    
 
 [[languages.es.menu.main]]
-  name = "inicio"
-  url = "/"
-  weight = -200
+    name = "Inicio"
+    url = "/"
+    weight = 1
 [[languages.es.menu.main]]
-  name = "archivos"
-  url = "/posts/"
-  weight = -180
+    name = "Viajes"
+    url = "/trips"
+    weight = 2
+[[languages.es.menu.main]]
+    name = "Tecnología"
+    url = "/technology"
+    weight = 3
+[[languages.es.menu.main]]
+    name = "Categorias"
+    url = "/categories"
+    weight = 4
+[[languages.es.menu.main]]
+    name = "Etiquetas"
+    url = "/tags"
+    weight = 5
+[[languages.es.menu.main]]
+    name = "Contacto"
+    url = "/contact"
+    weight = 6
+
