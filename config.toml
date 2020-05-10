@@ -4,6 +4,7 @@ theme = "ezhil"
 DefaultContentLanguage = "en"
 staticDir = ["static"]
 defaultContentLanguageInSubdir = true
+googleAnalytics = "UA-166051174-1"
 
 [languages]
   [languages.en]
