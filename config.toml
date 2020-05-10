@@ -67,8 +67,8 @@ defaultContentLanguageInSubdir = true
     url = "/tags"
     weight = 5
 [[languages.en.menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Contact"
+    url = "/contact"
     weight = 6    
 
 [[languages.es.menu.main]]
@@ -92,7 +92,7 @@ defaultContentLanguageInSubdir = true
     url = "/tags"
     weight = 5
 [[languages.es.menu.main]]
-    name = "Acerca"
-    url = "/about"
+    name = "Contacto"
+    url = "/contact"
     weight = 6
 

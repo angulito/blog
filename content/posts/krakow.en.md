@@ -14,7 +14,6 @@ categories = [
 image = "/posts/krakow/about.jpg" #optional image - "/img/about-bg.jpg" is the default
 description = ""
 draft = false
-comments = true
 +++
 
 # Content

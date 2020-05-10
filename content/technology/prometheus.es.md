@@ -10,7 +10,6 @@ categories = [
 ]
 description = ""
 draft = false
-comments = true
 +++
 
 En esta entrada puedes seguir un rápido tutorial sobre como configurar fácilmente tu primer sistema de monitorización usando herramientas como Prometheus, Grafana y Alertmanager. En la primera parte, podrás aprender sobre qué son exactamente estas herramientas. En la segunda parte, te redirigiré a una guía práctica (proyecto de Github) que contiene la documentación necesaria para configurar el sistema de monitorización desde cero en aproximadamente 30 minutos.

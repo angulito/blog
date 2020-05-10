@@ -10,7 +10,6 @@ categories = [
 ]
 description = ""
 draft = false
-comments = true
 +++
 
 In this post you can follow a quick tutorial about how you can easily set up your first monitoring system using tools like Prometheus, Grafana and Alertmanager. On the first part you'll learn about what are exactly these tools and how to use them. On the second part, I'll point out you to my Github project that contains the necessary documentation to set up your first monitoring system from scratch in ~30min.
