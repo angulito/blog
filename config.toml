@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://angulito.github.io/blog"
 languageCode = "en-us"
 theme = "ezhil"
 DefaultContentLanguage = "en"
